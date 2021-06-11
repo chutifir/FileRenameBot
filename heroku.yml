@@ -3,3 +3,7 @@ build:
     worker: Dockerfile
 run:
   worker: bash start.sh
+  
+name: Heroku Awake
+  uses: mikeesto/heroku-awake@1.0.0  
+  
